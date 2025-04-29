@@ -1,0 +1,100 @@
+{
+    "description": "Sehat Ki Baat IVR Basic Flow",
+    "states": [
+        {
+            "name": "Welcome",
+            "type": "say-play",
+            "properties": {
+                "text": "Welcome to Sehat Ki Baat. For Women's Health, press 1. For Maternal Wellbeing, press 2. For Family Life Education, press 3.",
+                "language": "ur-PK"
+            },
+            "transitions": [
+                {
+                    "event": "keypress",
+                    "conditions": [
+                        {
+                            "input": "1",
+                            "next": "WomensHealth"
+                        }
+                    ]
+                },
+                {
+                    "event": "keypress",
+                    "conditions": [
+                        {
+                            "input": "2",
+                            "next": "MaternalWellbeing"
+                        }
+                    ]
+                },
+                {
+                    "event": "keypress",
+                    "conditions": [
+                        {
+                            "input": "3",
+                            "next": "FamilyLifeEducation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "WomensHealth",
+            "type": "say-play",
+            "properties": {
+                "text": "Women's personal health is important for dignity and strength. Maintain hygiene and self-care.",
+                "language": "ur-PK"
+            },
+            "transitions": [
+                {
+                    "event": "keypress",
+                    "conditions": [
+                        {
+                            "input": "*",
+                            "next": "Welcome"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MaternalWellbeing",
+            "type": "say-play",
+            "properties": {
+                "text": "During pregnancy, good nutrition and regular check-ups are important for mother and child health.",
+                "language": "ur-PK"
+            },
+            "transitions": [
+                {
+                    "event": "keypress",
+                    "conditions": [
+                        {
+                            "input": "*",
+                            "next": "Welcome"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FamilyLifeEducation",
+            "type": "say-play",
+            "properties": {
+                "text": "Healthy family relationships are built on respect, communication, and shared responsibilities.",
+                "language": "ur-PK"
+            },
+            "transitions": [
+                {
+                    "event": "keypress",
+                    "conditions": [
+                        {
+                            "input": "*",
+                            "next": "Welcome"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "initial_state": "Welcome"
+}
