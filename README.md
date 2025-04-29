@@ -2,7 +2,8 @@
 # Sehat Ki Baat - Voice-Only IVR Platform
 
 **Project Description:**  
-Sehat Ki Baat is an open-source, voice-only IVR solution designed to provide rural and peri-urban women and girls with confidential, stigma-free access to health, social, and economic information.
+Sehat Ki Baat is an open-source, voice-only IVR solution designed to provide rural and peri-urban women and girls with confidential, stigma-free access to health, social, and economic information, family life and legal rights information in Pakistan — accessible from basic mobile phones without internet or literacy barriers.
+
 
 **Technology Stack:**  
 - Twilio Studio (IVR Flow)
