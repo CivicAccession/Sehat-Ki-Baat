@@ -1,9 +1,20 @@
-
 # Sehat Ki Baat - Voice-Only IVR Platform
 
 **Project Description:**  
 Sehat Ki Baat is an open-source, voice-only IVR solution designed to provide rural and peri-urban women and girls with confidential, stigma-free access to health, social, and economic information, family life and legal rights information in Pakistan — accessible from basic mobile phones without internet or literacy barriers.
 
+**Live Demo:**
+## 🔊 Live IVR Prototype Status
+
+The “Sehat Ki Baat” IVR helpline has been fully built and tested in Twilio Studio.
+
+- IVR Call Flow: Finalized
+- Scripts: Urdu-based, structured across 6+ topics
+- GitHub Repo: Contains JSON logic, scripts, and folder structure
+- **Prototype Number:** +1 231 930 3594  
+  *Note: Due to Twilio’s trial account limitations, only verified callers can access this demo. Full public rollout will follow upon funding.*
+
+Twilio Studio Flow Name: `Sehat-Ki-Baat-IVR-Flow`
 
 **Technology Stack:**  
 - Twilio Studio (IVR Flow)
@@ -24,4 +35,4 @@ Sehat Ki Baat is an open-source, voice-only IVR solution designed to provide rur
 - `Licenses/` : Open source licensing files
 
 **Contact:**  
-connect@civicaccession.com | www.civicaccession.com
+info@civicaccession.com | www.civicaccession.com
