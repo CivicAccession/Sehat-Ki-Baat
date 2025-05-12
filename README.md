@@ -50,5 +50,7 @@ Twilio Studio Flow Name: `Sehat-Ki-Baat-IVR-Flow`
 🎥 Pitch Video:
 https://youtu.be/0zNMMUunOmE
 
+Note: Audio scripts listed are polished documentation versions. Voice prompts in the Twilio IVR may have slight conversational variations to match listener engagement.
+
 **Contact:**  
 info@civicaccession.com | www.civicaccession.com
